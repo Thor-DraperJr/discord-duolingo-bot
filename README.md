@@ -19,3 +19,4 @@ First, install the ESLint package on your project by running `npm install eslint
 
 ## Resources
 * https://discordjs.guide/
+* https://forum.duolingo.com/comment/2418289/Public-API-for-DuoLingo
