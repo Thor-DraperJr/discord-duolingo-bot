@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto('https://www.duolingo.com/profile/ThorDraperJr');
-  await page.screenshot({path: 'example.png'});
+  await page.screenshot({path: 'XP.png'});
 
   await page.setViewport({width: 1640, height: 800});
 
