@@ -17,6 +17,15 @@ First, install the ESLint package on your project by running `npm install eslint
 
 #### 3a. Setting up the ESLint rules
 
+
+
+#### 1. node
+`npm i puppeteer` > `npm i puppeteer-core` > `npm install discord.js`
+
+
+
+
+
 ## Resources
 * https://discordjs.guide/
 * https://forum.duolingo.com/comment/2418289/Public-API-for-DuoLingo
