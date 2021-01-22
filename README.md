@@ -16,6 +16,8 @@
 * [ESLint for VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 #### 3a. Setting up the ESLint rules
 
+## Notes
+Be sure to create your own config.json and node_modules folders.
 
 
 ## Resources

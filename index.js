@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const { prefix, token } = require('./config.json');
 const fs = require('fs');
 const { Client, MessageAttachment } = require('discord.js');
+const pollEmbed = require('discord.js-poll-embed');
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -34,10 +35,7 @@ client.on('message', message => {
     }
 
 
-    setTimeout(function(){ 
-        const attachment = new MessageAttachment('./screenshot.png');
-        message.channel.send(attachment)
-     }, 5000); 
+
 
 
 
