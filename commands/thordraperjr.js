@@ -30,7 +30,7 @@ const { Client, MessageAttachment } = require('discord.js');
 
   message.channel.send('hang on while i get it!');
 
-  setTimeout(function(){ 
+setTimeout(function(){ 
     const attachment = new MessageAttachment('./screenshot.png');
     message.channel.send(attachment)
  }, 5000); 
